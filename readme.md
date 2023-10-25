@@ -26,6 +26,14 @@
 
 Install aws-cli and jq.
 
+## Usage
+
+Invoke chosen script by running:
+
+```shell
+zsh script.zsh
+```
+
 <!-- USAGE EXAMPLES -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -34,13 +42,23 @@ Install aws-cli and jq.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/mmazurowski/script-aws-cli-powertools.svg
+
 [contributors-url]: https://github.com/mmazurowski/script-aws-cli-powertools/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/mmazurowski/script-aws-cli-powertools.svg
+
 [forks-url]: https://github.com/mmazurowski/script-aws-cli-powertools/network/members
+
 [stars-shield]: https://img.shields.io/github/stars/mmazurowski/script-aws-cli-powertools.svg
+
 [stars-url]: https://github.com/mmazurowski/script-aws-cli-powertools/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/mmazurowski/script-aws-cli-powertools.svg
+
 [issues-url]: https://github.com/mmazurowski/script-aws-cli-powertools/issues
+
 [license-shield]: https://img.shields.io/github/license/mmazurowski/script-aws-cli-powertools.svg
+
 [license-url]: https://github.com/mmazurowski/granted/blob/master/LICENSE.txt
+
 [linkedin-url]: https://linkedin.com/in/marcinmazurowski
