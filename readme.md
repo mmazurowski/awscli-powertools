@@ -20,27 +20,13 @@
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-  </ol>
-</details>
-
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
 Install aws-cli and jq.
 
-!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
