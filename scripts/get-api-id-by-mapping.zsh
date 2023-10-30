@@ -12,11 +12,9 @@ BASE_PATH=api
 DOMAIN_NAME=acme.com
 
 ID=$(aws apigateway get-base-path-mappings --domain-name "$DOMAIN_NAME" \
-                                           --query "items[?basePath=='${BASE_PATH}'].restApiId" --output text);
+                                           --query "items[?basePath=='${BASE_PATH}'].restApiId" \
+                                           --output text);
 
 echo "API Gateway id=\"${ID}\"";
-
 echo "$ID" | pbcopy
-
 echo "Copied to clipboard"
-
