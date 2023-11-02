@@ -27,10 +27,16 @@ Install aws-cli and jq.
 
 ## Usage
 
+Checking if dependencies are installed:
+
+```shell
+zsh init.zsh
+```
+
 Invoke chosen script by running:
 
 ```shell
-zsh script.zsh
+zsh /directory/script.zsh
 ```
 
 <!-- USAGE EXAMPLES -->
