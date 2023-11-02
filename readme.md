@@ -16,7 +16,6 @@
   <p align="center">
     Usefull utility commands to debug AWS when the time comes.
     <br />
-    <a href="https://github.com/mmazurowski/script-aws-cli-powertools"><strong>Explore the docs »</strong></a>
   </p>
 </div>
 

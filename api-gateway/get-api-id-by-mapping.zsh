@@ -1,12 +1,8 @@
 #!/bin/zsh
+source ../shared/dependencies.zsh
 
 export AWS_PAGER=""
 export AWS_PROFILE=default
-
-if ! command -v aws &>/dev/null; then
-  echo "You need to install aws-cli"
-  exit 1
-fi
 
 BASE_PATH=api
 DOMAIN_NAME=acme.com
