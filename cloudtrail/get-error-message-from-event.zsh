@@ -18,4 +18,3 @@ fi
 aws cloudtrail lookup-events --lookup-attributes AttributeKey=EventId,AttributeValue="$eventId"  \
                       --query 'Events[*].CloudTrailEvent' | jq '.[0] | fromjson | .errorMessage' \
                       | xargs aws sts decode-authorization-message --encoded-message
-
